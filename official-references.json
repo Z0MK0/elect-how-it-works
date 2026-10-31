@@ -1,0 +1,122 @@
+[
+  {
+    "id": "instrucoes-2026",
+    "title": "Instruções de divulgação de resultados · 2026",
+    "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/divulgacao-de-resultados/tse-instrucoes-para-download-dos-arquivos-da-divulgacao-2026",
+    "checkedAt": "2026-10-30",
+    "description": "Documento versão 1.1 de 19/10/2026. Descreve a organização pública por ambiente, ciclo, eleição e pleito e a relação entre configurações, auxiliares e produtos. É referência de estrutura e nomenclatura dos produtos públicos.",
+    "group": "Contratos TSE · online"
+  },
+  {
+    "id": "ea10",
+    "title": "EA10 · Resultado de eleitos",
+    "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/divulgacao-de-resultados/tse-ea10-arquivo-de-resultado-de-eleitos",
+    "checkedAt": "2026-10-30",
+    "description": "Contrato de resultado de eleitos para os cargos e modalidades expressamente previstos. Não é uma lista universal de resultados de todos os cargos. O documento define contexto, abrangências, candidaturas e condições de presença.",
+    "group": "Contratos TSE · online"
+  },
+  {
+    "id": "ea11",
+    "title": "EA11 · Configuração de eleições",
+    "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/divulgacao-de-resultados/tse-ea11-arquivo-de-configuracao-de-eleicoes",
+    "checkedAt": "2026-10-30",
+    "description": "Contrato relacionado no índice oficial de 2026. As instruções oficiais o identificam como configuração de eleições e origem dos parâmetros de nomes e diretórios, incluindo arq. O dicionário completo deve ser consultado no documento original.",
+    "group": "Contratos TSE · online"
+  },
+  {
+    "id": "ea12",
+    "title": "EA12 · Configuração de municípios",
+    "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/divulgacao-de-resultados/tse-ea12-arquivo-de-configuracao-de-municipios",
+    "checkedAt": "2026-10-30",
+    "description": "Contrato relacionado no índice oficial. As instruções o relacionam ao cadastro de municípios e abrangências necessário para identificar resultados. O dicionário integral fica na referência oficial.",
+    "group": "Contratos TSE · online"
+  },
+  {
+    "id": "ea14",
+    "title": "EA14 · Acompanhamento Brasil",
+    "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/divulgacao-de-resultados/tse-ea14-arquivo-de-acompanhamento-brasil",
+    "checkedAt": "2026-10-30",
+    "description": "Contrato de acompanhamento da totalização no Brasil. A documentação de divulgação o distingue do resultado unificado por cargo e do auxiliar de seção.",
+    "group": "Contratos TSE · online"
+  },
+  {
+    "id": "ea15",
+    "title": "EA15 · Acompanhamento UF",
+    "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/divulgacao-de-resultados/tse-ea15-arquivo-de-acompanhamento-uf",
+    "checkedAt": "2026-10-30",
+    "description": "Contrato relacionado no índice oficial e nas instruções como acompanhamento por UF. Seus campos não devem ser confundidos com a lista de produtos de uma seção no EA18.",
+    "group": "Contratos TSE · online"
+  },
+  {
+    "id": "ea16",
+    "title": "EA16 · Configuração de seções eleitorais",
+    "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/divulgacao-de-resultados/tse-ea16-arquivo-de-configuracao-de-secoes-eleitorais",
+    "checkedAt": "2026-10-30",
+    "description": "Contrato do cadastro público de seções por pleito e UF. Especifica a hierarquia de abrangência, município, zona e seção e os vínculos nsp/nsa de principal/agregadas. da/ha identificam o momento do auxiliar da principal, quando disponível.",
+    "group": "Contratos TSE · online"
+  },
+  {
+    "id": "ea20",
+    "title": "EA20 · Resultado unificado",
+    "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/divulgacao-de-resultados/tse-ea20-arquivo-de-resultado-unificado",
+    "checkedAt": "2026-10-30",
+    "description": "Especificação de 13/10/2026. Define resultado por cargo e abrangência, geração, totalização, estados e grupos de cargos, seções, eleitorado e votos. O contrato distingue andamento, totalização final e definição matemática.",
+    "group": "Contratos TSE · online"
+  },
+  {
+    "id": "jws",
+    "title": "Manual de verificação JWS",
+    "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/divulgacao-de-resultados/manual-verificacao-jws",
+    "checkedAt": "2026-10-30",
+    "description": "Manual de 16/09/2026. Descreve representação assinada dos resultados JSON, cabeçalho, payload, assinatura e chaves por ambiente. Essa assinatura da divulgação tem função distinta do catálogo VSC da urna.",
+    "group": "Contratos TSE · online"
+  },
+  {
+    "id": "portal-divulgacao",
+    "title": "TSE · Índice e FAQ de divulgação 2026",
+    "url": "https://www.tse.jus.br/eleicoes/informacoes-tecnicas-sobre-a-divulgacao-de-resultados",
+    "checkedAt": "2026-10-30",
+    "description": "Índice dos documentos técnicos de divulgação e perguntas respondidas pelo TSE. Distingue identificação de geração e atualização dos arquivos distribuídos.",
+    "group": "Processo e referências TSE · online"
+  },
+  {
+    "id": "processo",
+    "title": "TSE · Da apuração à divulgação",
+    "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/saiba-como-foi-a-totalizacao-dos-votos-no-1o-turno-das-eleicoes-2026",
+    "checkedAt": "2026-10-30",
+    "description": "Publicação institucional que descreve produção do BU, mídia de resultado, transmissão, recebimento, totalização e divulgação.",
+    "group": "Processo e referências TSE · online"
+  },
+  {
+    "id": "preparacao",
+    "title": "Justiça Eleitoral · Preparação e correspondência",
+    "url": "https://www.justicaeleitoral.jus.br/urna-eletronica/oportunidades-de-auditoria-e-fiscalizacao.html",
+    "checkedAt": "2026-10-30",
+    "description": "Publicação institucional com as etapas de preparação, assinatura e lacração, geração de mídias, carga e correspondência entre seção e urna.",
+    "group": "Processo e referências TSE · online"
+  },
+  {
+    "id": "apuracao",
+    "title": "TSE · Apuração e totalização",
+    "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/entenda-a-diferenca-entre-apuracao-e-totalizacao-de-votos",
+    "checkedAt": "2026-10-30",
+    "description": "Explicação institucional das escalas da apuração da seção e da totalização dos resultados.",
+    "group": "Processo e referências TSE · online"
+  },
+  {
+    "id": "totalizacao",
+    "title": "TSE · Relação entre BU e totalização",
+    "url": "https://www.tse.jus.br/eleicoes/urna-eletronica/seguranca-da-urna/auditoria-da-totalizacao",
+    "checkedAt": "2026-10-30",
+    "description": "A publicação relaciona BU como entrada e relatório de voto por seção como saída para comparação.",
+    "group": "Processo e referências TSE · online"
+  },
+  {
+    "id": "auditoria",
+    "title": "TSE · Relações entre RDV, BU e assinaturas",
+    "url": "https://www.tse.jus.br/eleicoes/urna-eletronica/seguranca-da-urna/como-realizar-auditoria",
+    "checkedAt": "2026-10-30",
+    "description": "Publicação institucional que apresenta recontagem do RDV e comparação com BU, hashes e assinaturas como verificações sobre objetos distintos.",
+    "group": "Processo e referências TSE · online"
+  }
+]

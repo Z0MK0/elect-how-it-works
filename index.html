@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' file:; script-src 'self' file:; style-src 'self' file:; img-src 'self' file: data:; connect-src 'none'; object-src 'none'; base-uri 'none'">
+  <title>Pleito eleitoral · Guia interativo</title>
+  <link rel="stylesheet" href="dark.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="vendor/marked.umd.js"></script>
+  <script defer src="sources.js"></script>
+  <script defer src="content.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Pular para o conteúdo</a>
+<header class="topbar">
+  <a href="#inicio" class="brand" aria-label="Início do guia"><span class="brand-symbol" aria-hidden="true">P</span><span>PLEITO ELEITORAL<small>PROCESSO TÉCNICO E CONTRATOS TSE</small></span></a>
+  <button id="search-open" class="search-trigger" type="button">Buscar no guia e nas fontes <kbd>/</kbd></button>
+  <span class="offline-label">Local · offline</span>
+</header>
+<nav class="mainnav" aria-label="Navegação principal">
+  <a href="#inicio" data-nav="inicio">Comece aqui</a>
+  <a href="#pipeline" data-nav="pipeline">Pipeline</a>
+  <a href="#relacoes" data-nav="relacoes">Relacionamentos</a>
+  <a href="#aprender/01" data-nav="aprender">Documentação</a>
+  <a href="#arquivos" data-nav="arquivos">Arquivos</a>
+  <a href="#laboratorio" data-nav="laboratorio">Explorar conceitos</a>
+  <a href="#fontes" data-nav="fontes">Fontes e contratos</a>
+</nav>
+<main id="main" tabindex="-1"></main>
+<footer><span>Guia explicativo baseado em contratos e publicações do TSE. Revisado em 30/10/2026.</span><a href="README.md">Como abrir e atualizar</a><button class="link-button" id="print" type="button">Imprimir a documentação</button></footer>
+<div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+<dialog id="search-dialog" aria-labelledby="search-title">
+  <div class="dialog-head"><h2 id="search-title">Buscar em todo o acervo textual</h2><button id="search-close" type="button">Fechar</button></div>
+  <label for="global-search">Termo, nome de arquivo ou conceito</label>
+  <input id="global-search" type="search" autocomplete="off" placeholder="Ex.: quantidadeEscolhas, RDV, Recebida…">
+  <p id="search-count" role="status"></p><div id="search-results"></div>
+</dialog>
+<noscript>Este guia precisa de JavaScript para a navegação local. O conteúdo completo também está disponível em <a href="guia-pleito.md">guia-pleito.md</a>.</noscript>
+</body>
+</html>
