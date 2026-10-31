@@ -1,0 +1,58 @@
+name: Publicar how-it-works no GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  preparar:
+    name: Preparar documentação e anexos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter repositório
+        uses: actions/checkout@v4
+
+      - name: Conferir JavaScript da interface
+        run: |
+          node --check app.js
+          node --check content.js
+          node --check sources.js
+
+      # Usa o snapshot versionado. Não lê data/, não executa coleta e
+      # não precisa do SQLite ou dos arquivos brutos de votação no runner.
+      - name: Empacotar guia e documentação auxiliar permitida
+        run: python3 scripts/build_pages.py --output _site
+
+      - name: Enviar somente o pacote preparado
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  publicar:
+    name: Publicar no Pages
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: preparar
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Publicar documentação
+        id: deployment
+        uses: actions/deploy-pages@v5

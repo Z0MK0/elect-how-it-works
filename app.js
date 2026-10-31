@@ -12,8 +12,8 @@
   const byPath = new Map(docs.map(d => [d.path,d]));
   const chapter = id => S.chapters.find(c => c.id === id) || S.chapters[0];
   const localURL = path => {
-    if (S.publication) {
-      const asset = S.publication.files[path];
+    if (S.publication || S.localDocuments) {
+      const asset = (S.publication?.files || S.localDocuments)[path];
       return asset ? new URL(asset.split('/').map(encodeURIComponent).join('/'), pageRoot).href : null;
     }
     return new URL(path.split('/').map(encodeURIComponent).join('/'), workspaceURL).href;

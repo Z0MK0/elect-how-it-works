@@ -1,0 +1,20 @@
+# Saída reproduzível do GitHub Pages e caches locais.
+/_site/
+__pycache__/
+*.py[cod]
+
+# Dados eleitorais brutos e bancos não fazem parte da publicação.
+/data/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.csv
+*.tsv
+*.zip
+*.7z
+*.dat
+*.vsc
+*.jez
